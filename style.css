@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1.2fr 2fr 1.7fr;
+    height: 100vh;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 25px;
+    grid-template-areas:
+    "heading-1 heading-2 heading-3 heading-4"
+    "heading-5 heading-6 heading-6 heading-7"
+    "heading-5 heading-8 heading-9 heading-7" 
+}
+
+.heading-1{
+    padding: 25px;
+    grid-area: heading-1;
+    background-color: #31322C;
+    padding-right: 60px;
+}
+.heading-2{
+    text-align: center;
+    align-content: center;
+    grid-area: heading-2;
+    background-color: #39A0ED;
+}
+.heading-3{
+    text-align: center;
+    align-content: center;
+    grid-area: heading-3;
+    background-color: #15C4A4;
+}
+.heading-4{
+    text-align: center;
+    align-content: center;
+    grid-area: heading-4;
+    background-color: #31322C;
+}
+.heading-5{
+    padding-top: 180px;
+    padding-left: 100px;
+    grid-area: heading-5;
+    background-color: #4C6085;
+}
+.heading-6{
+    padding-top: 60px;
+    padding-left:60px;
+    grid-area: heading-6;
+    background-color: #31322C;
+}
+.heading-7{
+    padding-top: 180px;
+    padding-left:23px ;
+    grid-area: heading-7;
+    background-color: #4C6085;
+}
+.heading-8{
+    padding-top:25px;
+    padding-left:20px;
+    grid-area: heading-8;
+    background-color: #39A0ED;
+}
+.heading-9{
+    padding-top: 40px;
+    padding-left: 20px;
+    grid-area: heading-9;
+    background-color: #15C4A4;
+}
+
+ p{
+    font-size: 14px;
+    padding-top: 10px;
+    margin-right:25%;
+   
+}
+
